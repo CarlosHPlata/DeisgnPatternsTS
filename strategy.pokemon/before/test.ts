@@ -5,7 +5,7 @@ const gameState: GameState = {enemy: {hp: 500, state: ""}, weather: "cielos desp
 console.log('Game start', gameState);
 
 const pikachu: Pokemon = new Pokemon();
-console.log("\n\nPikachu lanza ataque terremoto!!!!!!!!");
-pikachu.performAttack("terremoto", gameState);
+console.log("\n\nPikachu lanza ataque trueno!!!!!!!!");
+pikachu.performAttack("ataque trueno", gameState);
 
 console.log(gameState);
