@@ -1,11 +1,11 @@
-import OrbitalSatelite from "./interfaces/OrbitalSatelite";
+import OrbitalSatelite from "./OrbitalSatelite";
 
 export default class Voyager extends OrbitalSatelite {
 
     async exploreSpace() {
-        for (let i = 0; i<=4;  i++) {
+        for (let i = 0; i<=10;  i++) {
             let heat = await this.detectNewHeat();
-            this.notifyHeatChange(heat);
+            this.notiffyHeatChange(heat);
             console.log('\n\n------------------------------------------------\n\n');
         }
     }

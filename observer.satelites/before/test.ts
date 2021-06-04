@@ -4,8 +4,8 @@ import Voyager from "./Voyager";
 
 const voyager: Voyager = new Voyager();
 
-const solarFlare: SolarFlare = new SolarFlare();
-const sunMetter: SunHeatMetter = new SunHeatMetter();
+const solarFlare: SolarFlare = new SolarFlare( voyager );
+const sunMetter: SunHeatMetter = new SunHeatMetter( voyager );
 
 //==============================================================================
 
